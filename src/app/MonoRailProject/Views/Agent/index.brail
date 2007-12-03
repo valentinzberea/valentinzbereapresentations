@@ -1,0 +1,9 @@
+<p>
+Agents List
+</p>
+<ul>
+<% for agent in agents:
+output "<li>${agent.Name}</li>"
+end
+%>
+</ul>
