@@ -111,9 +111,9 @@
     <Compile Include="Controllers\LoginControllerTestCase.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\app\MonoRailProject\MonoRailProject.csproj">
+    <ProjectReference Include="..\..\..\app\MonoRailProject\Web.csproj">
       <Project>{2B36CED5-6644-4AE6-AD08-711691B9B479}</Project>
-      <Name>MonoRailProject</Name>
+      <Name>Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
