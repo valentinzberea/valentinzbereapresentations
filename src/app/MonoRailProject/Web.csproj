@@ -142,9 +142,7 @@
   <ItemGroup>
     <Compile Include="Controllers\AgentController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
-    <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="GlobalApplication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -154,12 +152,8 @@
     <Content Include="config\properties.config" />
     <Content Include="config\components.config" />
     <None Include="Views\Agent\index.brail" />
-    <None Include="Views\Contact\confirmation.brail" />
-    <None Include="Views\Contact\index.brail" />
     <None Include="Views\Home\Index.brail" />
     <None Include="Views\layouts\default.brail" />
-    <None Include="Views\Login\authenticate.brail" />
-    <None Include="Views\Login\Index.brail" />
     <None Include="Views\rescues\generalerror.brail" />
   </ItemGroup>
   <ItemGroup>
