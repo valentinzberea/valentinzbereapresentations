@@ -146,8 +146,6 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="GlobalApplication.cs" />
-    <Compile Include="Models\ContactInfo.cs" />
-    <Compile Include="Models\Country.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
