@@ -75,34 +75,37 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Castle.ActiveRecord">
-      <Name>Castle.ActiveRecord</Name>
-      <HintPath>..\..\..\..\..\..\..\castleall\trunk\ActiveRecord\bin\Castle.ActiveRecord.dll</HintPath>
+    <Reference Include="Castle.ActiveRecord, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\castle\Castle.ActiveRecord.dll</HintPath>
     </Reference>
-    <Reference Include="Castle.Core, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL" />
-    <Reference Include="Castle.DynamicProxy">
-      <Name>Castle.DynamicProxy</Name>
-      <HintPath>..\..\..\..\..\..\..\castleall\trunk\ActiveRecord\bin\Castle.DynamicProxy.dll</HintPath>
+    <Reference Include="Castle.Core, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\castle\Castle.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Iesi.Collections">
-      <Name>Iesi.Collections</Name>
-      <HintPath>..\..\..\..\..\..\..\castleall\trunk\ActiveRecord\bin\Iesi.Collections.dll</HintPath>
+    <Reference Include="Castle.DynamicProxy, Version=1.1.5.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\castle\Castle.DynamicProxy.dll</HintPath>
     </Reference>
-    <Reference Include="log4net">
-      <Name>log4net</Name>
-      <HintPath>..\..\..\..\..\..\..\castleall\trunk\ActiveRecord\bin\log4net.dll</HintPath>
+    <Reference Include="Iesi.Collections, Version=1.0.0.3, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\NHibernate\Iesi.Collections.dll</HintPath>
     </Reference>
-    <Reference Include="NHibernate">
-      <Name>NHibernate</Name>
-      <HintPath>..\..\..\..\..\..\..\castleall\trunk\ActiveRecord\bin\NHibernate.dll</HintPath>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\NHibernate\log4net.dll</HintPath>
     </Reference>
-    <Reference Include="Nullables">
-      <Name>Nullables</Name>
-      <HintPath>..\..\..\..\..\..\..\castleall\trunk\ActiveRecord\bin\Nullables.dll</HintPath>
+    <Reference Include="NHibernate, Version=1.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\NHibernate\NHibernate.dll</HintPath>
     </Reference>
-    <Reference Include="Nullables.NHibernate">
-      <Name>Nullables.NHibernate</Name>
-      <HintPath>..\..\..\..\..\..\..\castleall\trunk\ActiveRecord\bin\Nullables.NHibernate.dll</HintPath>
+    <Reference Include="Nullables, Version=1.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\NHibernate\Nullables.dll</HintPath>
+    </Reference>
+    <Reference Include="Nullables.NHibernate, Version=1.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\NHibernate\Nullables.NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <Name>nunit.framework</Name>

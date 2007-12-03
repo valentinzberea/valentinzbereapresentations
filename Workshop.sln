@@ -45,6 +45,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "castle", "castle", "{D47B03
 		lib\castle\NVelocity.dll = lib\castle\NVelocity.dll
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nunit", "nunit", "{1B5F33F8-64DE-483B-96DF-94533724BEED}"
+	ProjectSection(SolutionItems) = preProject
+		lib\NUnit\nunit.framework.dll = lib\NUnit\nunit.framework.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rhinomocks", "rhinomocks", "{63F97DAC-9011-4F4C-96FC-4CEAAD981FE7}"
+	ProjectSection(SolutionItems) = preProject
+		lib\RhinoMocks\Rhino.Mocks.dll = lib\RhinoMocks\Rhino.Mocks.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nhibernate", "nhibernate", "{17BF29C7-5565-4458-9444-DAD766F29741}"
+	ProjectSection(SolutionItems) = preProject
+		lib\NHibernate\Iesi.Collections.dll = lib\NHibernate\Iesi.Collections.dll
+		lib\NHibernate\log4net.dll = lib\NHibernate\log4net.dll
+		lib\NHibernate\NHibernate.dll = lib\NHibernate\NHibernate.dll
+		lib\NHibernate\Nullables.dll = lib\NHibernate\Nullables.dll
+		lib\NHibernate\Nullables.NHibernate.dll = lib\NHibernate\Nullables.NHibernate.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,5 +92,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D47B0382-1FD7-42B2-9AFA-5A33106321D4} = {9ED67EDD-75F1-4353-B1D3-1574106521C7}
+		{1B5F33F8-64DE-483B-96DF-94533724BEED} = {9ED67EDD-75F1-4353-B1D3-1574106521C7}
+		{63F97DAC-9011-4F4C-96FC-4CEAAD981FE7} = {9ED67EDD-75F1-4353-B1D3-1574106521C7}
+		{17BF29C7-5565-4458-9444-DAD766F29741} = {9ED67EDD-75F1-4353-B1D3-1574106521C7}
 	EndGlobalSection
 EndGlobal
