@@ -9,6 +9,42 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoRailProject.Tests", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsActiveRecord.Tests", "src\test\unit\TestsActiveRecord.Tests\TestsActiveRecord.Tests.csproj", "{92177D40-1E09-4782-B606-471061CEC062}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{9ED67EDD-75F1-4353-B1D3-1574106521C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "castle", "castle", "{D47B0382-1FD7-42B2-9AFA-5A33106321D4}"
+	ProjectSection(SolutionItems) = preProject
+		lib\castle\Castle.ActiveRecord.dll = lib\castle\Castle.ActiveRecord.dll
+		lib\castle\Castle.Components.Binder.dll = lib\castle\Castle.Components.Binder.dll
+		lib\castle\Castle.Components.Common.EmailSender.dll = lib\castle\Castle.Components.Common.EmailSender.dll
+		lib\castle\Castle.Components.Common.TemplateEngine.dll = lib\castle\Castle.Components.Common.TemplateEngine.dll
+		lib\castle\Castle.Components.Common.TemplateEngine.NVelocityTemplateEngine.dll = lib\castle\Castle.Components.Common.TemplateEngine.NVelocityTemplateEngine.dll
+		lib\castle\Castle.Components.DictionaryAdapter.dll = lib\castle\Castle.Components.DictionaryAdapter.dll
+		lib\castle\Castle.Components.Validator.dll = lib\castle\Castle.Components.Validator.dll
+		lib\castle\Castle.Core.dll = lib\castle\Castle.Core.dll
+		lib\castle\Castle.DynamicProxy.dll = lib\castle\Castle.DynamicProxy.dll
+		lib\castle\Castle.DynamicProxy2.dll = lib\castle\Castle.DynamicProxy2.dll
+		lib\castle\Castle.Facilities.ActiveRecordIntegration.dll = lib\castle\Castle.Facilities.ActiveRecordIntegration.dll
+		lib\castle\Castle.Facilities.AutomaticTransactionManagement.dll = lib\castle\Castle.Facilities.AutomaticTransactionManagement.dll
+		lib\castle\Castle.Facilities.BatchRegistration.dll = lib\castle\Castle.Facilities.BatchRegistration.dll
+		lib\castle\Castle.Facilities.Logging.dll = lib\castle\Castle.Facilities.Logging.dll
+		lib\castle\Castle.Facilities.NHibernateIntegration.dll = lib\castle\Castle.Facilities.NHibernateIntegration.dll
+		lib\castle\Castle.MicroKernel.dll = lib\castle\Castle.MicroKernel.dll
+		lib\castle\Castle.MonoRail.ActiveRecordScaffold.dll = lib\castle\Castle.MonoRail.ActiveRecordScaffold.dll
+		lib\castle\Castle.MonoRail.ActiveRecordSupport.dll = lib\castle\Castle.MonoRail.ActiveRecordSupport.dll
+		lib\castle\Castle.MonoRail.Framework.dll = lib\castle\Castle.MonoRail.Framework.dll
+		lib\castle\Castle.MonoRail.Framework.Views.NVelocity.dll = lib\castle\Castle.MonoRail.Framework.Views.NVelocity.dll
+		lib\castle\Castle.MonoRail.JSONSupport.dll = lib\castle\Castle.MonoRail.JSONSupport.dll
+		lib\castle\Castle.MonoRail.TestSupport.dll = lib\castle\Castle.MonoRail.TestSupport.dll
+		lib\castle\Castle.MonoRail.TransformFilters.dll = lib\castle\Castle.MonoRail.TransformFilters.dll
+		lib\castle\Castle.MonoRail.Views.Brail.dll = lib\castle\Castle.MonoRail.Views.Brail.dll
+		lib\castle\Castle.MonoRail.WindsorExtension.dll = lib\castle\Castle.MonoRail.WindsorExtension.dll
+		lib\castle\Castle.Services.Logging.Log4netIntegration.dll = lib\castle\Castle.Services.Logging.Log4netIntegration.dll
+		lib\castle\Castle.Services.Logging.NLogIntegration.dll = lib\castle\Castle.Services.Logging.NLogIntegration.dll
+		lib\castle\Castle.Services.Transaction.dll = lib\castle\Castle.Services.Transaction.dll
+		lib\castle\Castle.Windsor.dll = lib\castle\Castle.Windsor.dll
+		lib\castle\NVelocity.dll = lib\castle\NVelocity.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,5 +70,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D47B0382-1FD7-42B2-9AFA-5A33106321D4} = {9ED67EDD-75F1-4353-B1D3-1574106521C7}
 	EndGlobalSection
 EndGlobal
