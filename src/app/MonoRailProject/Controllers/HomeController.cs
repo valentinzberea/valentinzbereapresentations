@@ -8,10 +8,5 @@ namespace MonoRailProject.Controllers
 		{
 			PropertyBag["AccessDate"] = DateTime.Now;
 		}
-
-		public void BlowItAway()
-		{
-			throw new Exception("Exception thrown from a MonoRail action");
-		}
 	}
 }

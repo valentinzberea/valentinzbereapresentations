@@ -10,39 +10,20 @@ namespace TestsActiveRecord
     // Feel free to delete it right away.
 
     [ActiveRecord("Agent")]
-    public class Agent : ActiveRecordBase<Agent>
+    public class Agent : ActiveRecordBase<Agent>, IAgent
     {
-        private int id;
-        private String name;
+        [PrimaryKey] public int Id { get; set; }
 
-        [PrimaryKey]
-        public int Id
-        {
-            get { return id; }
-            set { id = value; }
-        }
+        [Property] public string Nume { get; set; }
+        [Property] public string Email { get; set; }
+        [Property] public bool Activ { get; set; }
 
-        [Property]
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
+        
+        [Property] public int OrasActivitate{ get; set;}
 
-        private string _Email;
-        [Property]
-        public string Email
+        public Agent[] GetAll()
         {
-            get { return _Email; }
-            set { _Email = value; }
-        }
-
-        private bool _Active;
-        [Property]
-        public bool Active
-        {
-            get { return _Active; }
-            set { _Active = value; }
+            return Agent.FindAll();
         }
     }
 }

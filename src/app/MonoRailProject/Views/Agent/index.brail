@@ -1,9 +1,15 @@
-<p>
+<form action="/agent/index.castle" method="form">
+
+  <p>
 Agents List
 </p>
 <ul>
 <% for agent in agents:
-output "<li>${agent.Name}</li>"
+output "<li>${agent.Nume} - ${agent.Email}</li>"
 end
 %>
 </ul>
+
+  ${HtmlHelper.SubmitButton("Refresh")}
+  
+</form>

@@ -32,11 +32,5 @@ namespace MonoRailProject.Tests
 			Assert.IsNotNull(controller.PropertyBag["AccessDate"]);
 		}
 
-		[Test]
-		[ExpectedException(typeof(Exception), "Exception thrown from a MonoRail action")]
-		public void BlowItAwayShouldThrowExceptionAsItsHardCodedToDoThat()
-		{
-			controller.BlowItAway();
-		}
 	}
 }
