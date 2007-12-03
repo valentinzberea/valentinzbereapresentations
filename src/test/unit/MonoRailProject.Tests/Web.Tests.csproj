@@ -104,11 +104,9 @@
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Controllers\ContactControllerTestCase.cs" />
     <Compile Include="Controllers\HomeControllerTestCase.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Controllers\LoginControllerTestCase.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\app\MonoRailProject\Web.csproj">
