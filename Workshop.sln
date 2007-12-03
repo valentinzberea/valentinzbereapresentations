@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoRailProject", "src\app\MonoRailProject\MonoRailProject.csproj", "{2B36CED5-6644-4AE6-AD08-711691B9B479}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "src\app\MonoRailProject\Web.csproj", "{2B36CED5-6644-4AE6-AD08-711691B9B479}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "src\app\TestsActiveRecord\Models.csproj", "{EA7B997A-4922-4BE0-879F-E7B12E4CB1A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoRailProject.Tests", "src\test\unit\MonoRailProject.Tests\MonoRailProject.Tests.csproj", "{CD2645FD-FC99-46E4-9BCE-BDC99F3D5900}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Tests", "src\test\unit\MonoRailProject.Tests\Web.Tests.csproj", "{CD2645FD-FC99-46E4-9BCE-BDC99F3D5900}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models.Tests", "src\test\unit\TestsActiveRecord.Tests\Models.Tests.csproj", "{92177D40-1E09-4782-B606-471061CEC062}"
 EndProject
