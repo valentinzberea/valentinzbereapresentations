@@ -133,9 +133,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\app\TestsActiveRecord\TestsActiveRecord.csproj">
+    <ProjectReference Include="..\..\..\app\TestsActiveRecord\Models.csproj">
       <Project>{EA7B997A-4922-4BE0-879F-E7B12E4CB1A9}</Project>
-      <Name>TestsActiveRecord</Name>
+      <Name>Models</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
