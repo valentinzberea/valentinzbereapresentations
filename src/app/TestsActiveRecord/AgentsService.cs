@@ -14,7 +14,7 @@ namespace TestsActiveRecord
 
         public Agent[] GetByFilter(bool isActive)
         {
-            return Agent.FindAllByProperty("Active", isActive);
+            return Agent.FindAllByProperty("Activ", isActive);
         }
     }
 }
