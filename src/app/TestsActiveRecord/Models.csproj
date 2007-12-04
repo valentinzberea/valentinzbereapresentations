@@ -114,7 +114,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Agent.cs" />
-    <Compile Include="IAgent.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Readme.txt" />
