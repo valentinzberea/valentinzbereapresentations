@@ -18,5 +18,5 @@ namespace TestsActiveRecord
         [Property] public string Email { get; set; }
         [Property] public bool Activ { get; set; }
 
- }
+    }
 }
