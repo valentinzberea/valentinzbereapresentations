@@ -20,22 +20,12 @@ namespace MRProjectTest.Controllers
             Agent[] testAgents = new Agent[] {new Agent{Id =1,Nume ="Test"}};
             using(_mocks.Record())
             {
-                using(_mocks.Ordered())
-                {
-                
-                }
-                Expect.
+                 Expect.
                     On(_serviceMock).
                     Call(_serviceMock.GetAll()).
                     Return(testAgents).
                     Repeat.Once();
-
-                Expect.
-                    On(_serviceMock).
-                    Call(_serviceMock.GetAll()).
-                    Return(null).
-                    Repeat.Once();
-        }
+            }
 
             AgentController controller;
             using(_mocks.Playback())
