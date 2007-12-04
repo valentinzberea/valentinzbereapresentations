@@ -13,21 +13,35 @@ namespace MonoRailProject.Controllers
             _service = new AgentsService();
         }
 
+        const string ALL = "(All)";
+        const string ACTIVE ="Active";
+        const string INACTIVE = "Inactive";
+
         public void Index()
         {
-            PropertyBag["filterValues"] = new string[] {"(All)","Active","Inactive"};
+            PropertyBag["filterValues"] = new string[] {ALL,ACTIVE,INACTIVE};
 
-            BindAgents();
+            string filterValue = Params["filter"];
+
+            switch (filterValue)
+            {
+                case ALL:
+                    PropertyBag["agents"] = _service.GetAll();
+                    break;
+                case ACTIVE:
+                    PropertyBag["agents"] = _service.GetByFilter(true);
+                    break;
+                case INACTIVE:
+                    PropertyBag["agents"] = _service.GetByFilter(false);
+                    break;
+            }
+            
         }
 
-        private void BindAgents()
-        {
-            PropertyBag["agents"] = _service.GetAll();
-        }
 
         public void Filter(string filterValue)
         {
-            RedirectToAction("index");
+            RedirectToAction("index",string.Format("filter={0}",filterValue));
         }
     }
 }
