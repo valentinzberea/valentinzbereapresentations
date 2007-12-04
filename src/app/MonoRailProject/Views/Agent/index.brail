@@ -4,8 +4,11 @@
 Agents List
 </p>
 <ul>
-<% for agent in agents:
-output "<li>${agent.Nume} - ${agent.Email}</li>"
+<% 
+if IsDefined("agents"):
+  for agent in agents:
+    output "<li>${agent.Nume} - ${agent.Email}</li>"
+  end
 end
 %>
 </ul>
